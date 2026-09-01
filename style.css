@@ -32,10 +32,11 @@ h2:last-of-type {
     color: #8B00FF;
 }
 
-/* ESTILO PARA OS VÍDEOS */
+/* ESTILO NOVO PARA OS VÍDEOS (COM SOMBRA!) */
 iframe {
     border-radius: 25px;
     display: block;
     margin: 20px auto;
     max-width: 90%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
