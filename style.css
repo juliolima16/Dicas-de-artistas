@@ -2,11 +2,24 @@ body {
     background-color: lightblue;
 }
 
+/* ESPAÇO VIP DO TÍTULO PRINCIPAL */
 h1 {
     font-size: 70px;
     color: rgb(59, 99, 126);
     text-transform: uppercase;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 30px 20px;
+    border-radius: 20px;
+    margin: 30px auto;
+    max-width: 80%;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Efeito hover no título principal */
+h1:hover {
+    transform: scale(1.02);
 }
 
 h2 {
@@ -18,7 +31,7 @@ h2 {
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-/* EFEITO NOS TÍTULOS */
+/* EFEITO NOS TÍTULOS DAS SEÇÕES */
 h2:hover {
     transform: scale(1.05);
     background-color: rgba(255, 255, 255, 0.6);
@@ -44,7 +57,7 @@ iframe {
     border-radius: 25px;
     display: block;
     margin: 20px auto;
-    max-width: 70%;  /* ← MUDANÇA AQUI! de 90% para 70% */
+    max-width: 70%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     width: 100%;
     aspect-ratio: 16 / 9;
