@@ -15,28 +15,28 @@ h2 {
     background-color: rgba(255, 255, 255, 0.3);
     padding: 15px;
     border-radius: 15px;
-    transition: transform 0.3s ease, background-color 0.3s ease; /* animação suave nos títulos! */
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-/* EFEITO NOS TÍTULOS TAMBÉM! */
+/* EFEITO NOS TÍTULOS */
 h2:hover {
-    transform: scale(1.05); /* aumenta 5% */
-    background-color: rgba(255, 255, 255, 0.6); /* fundo fica mais claro */
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
-/* YOUTUBER - Vermelho */
+/* YOUTUBER - Rosa pastel */
 h2:first-of-type {
-    color: #FF0000;
+    color: #FFB3B3;
 }
 
-/* ATOR/ATRIZ - Azul */
+/* ATOR/ATRIZ - Azul pastel */
 h2:nth-of-type(2) {
-    color: #0044FF;
+    color: #B3D9FF;
 }
 
-/* TEATRO - Roxo */
+/* TEATRO - Lilás pastel */
 h2:last-of-type {
-    color: #8B00FF;
+    color: #D4B3FF;
 }
 
 /* VÍDEOS RESPONSIVOS */
