@@ -39,12 +39,12 @@ h2:last-of-type {
     color: #C28BFF;
 }
 
-/* VÍDEOS RESPONSIVOS */
+/* VÍDEOS RESPONSIVOS E MENORES */
 iframe {
     border-radius: 25px;
     display: block;
     margin: 20px auto;
-    max-width: 90%;
+    max-width: 70%;  /* ← MUDANÇA AQUI! de 90% para 70% */
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     width: 100%;
     aspect-ratio: 16 / 9;
