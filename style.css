@@ -15,6 +15,13 @@ h2 {
     background-color: rgba(255, 255, 255, 0.3);
     padding: 15px;
     border-radius: 15px;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* animação suave nos títulos! */
+}
+
+/* EFEITO NOS TÍTULOS TAMBÉM! */
+h2:hover {
+    transform: scale(1.05); /* aumenta 5% */
+    background-color: rgba(255, 255, 255, 0.6); /* fundo fica mais claro */
 }
 
 /* YOUTUBER - Vermelho */
@@ -41,4 +48,11 @@ iframe {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     width: 100%;
     aspect-ratio: 16 / 9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* EFEITO HOVER NOS VÍDEOS */
+iframe:hover {
+    transform: scale(1.02);
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.7);
 }
