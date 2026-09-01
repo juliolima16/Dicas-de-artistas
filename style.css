@@ -19,15 +19,23 @@ h2 {
 
 /* YOUTUBER - Vermelho */
 h2:first-of-type {
-    color: #FF0000;  /* vermelho puro! */
+    color: #FF0000;
 }
 
 /* ATOR/ATRIZ - Azul */
 h2:nth-of-type(2) {
-    color: #0044FF;  /* azul vibrante! */
+    color: #0044FF;
 }
 
 /* TEATRO - Roxo */
 h2:last-of-type {
-    color: #8B00FF;  /* roxo intenso! */
+    color: #8B00FF;
+}
+
+/* ESTILO NOVO PARA OS VÍDEOS! 🎬 */
+iframe {
+    border-radius: 25px;
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
 }
