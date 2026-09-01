@@ -24,19 +24,19 @@ h2:hover {
     background-color: rgba(255, 255, 255, 0.6);
 }
 
-/* YOUTUBER - Rosa pastel */
+/* YOUTUBER - Rosa médio */
 h2:first-of-type {
-    color: #FFB3B3;
+    color: #FF8A8A;
 }
 
-/* ATOR/ATRIZ - Azul pastel */
+/* ATOR/ATRIZ - Azul médio */
 h2:nth-of-type(2) {
-    color: #B3D9FF;
+    color: #7BB8FF;
 }
 
-/* TEATRO - Lilás pastel */
+/* TEATRO - Lilás médio */
 h2:last-of-type {
-    color: #D4B3FF;
+    color: #C28BFF;
 }
 
 /* VÍDEOS RESPONSIVOS */
